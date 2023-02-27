@@ -1,6 +1,17 @@
+:root {
+  --primary: #1DA1F2;
+  --primary-hover: #1B95E0;
+  --primary-disable: #9AD0F9;
+  --primary-text: #0F1419;
+  --secondary-hover: #5B7083;
+  --error: #DD2E44;
+  --background: #EBEEF0;
+  --background-2: #F7F9FA;
+}
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  font-family: "Roboto", -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -11,3 +22,65 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* .text,
+.text-xl,
+.text-l,
+.text-s,
+.text-xs,
+.text-bold,
+.text-xl-bold,
+.text-l-bold,
+.text-s-bold,
+.text-xs-bold  */
+.text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+.text-xl {
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 40px;
+}
+.text-l {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+}
+.text-s {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+}
+.text-xs {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+}
+.text-bold {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+}
+.text-xl-bold {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 40px;
+}
+.text-l-bold {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 32px;
+}
+.text-s-bold {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+}
+.text-xs-bold {
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 16px;
+}
+
